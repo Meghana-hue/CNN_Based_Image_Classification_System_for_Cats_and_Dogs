@@ -68,165 +68,38 @@ The project uses the **Cats vs Dogs** image dataset containing labeled images of
 
 The dataset is used to train and validate the CNN model for binary classification.
 
+**Note:** If the dataset is not included in this repository, download it separately and ensure it is available at the path expected by the notebook.
+
 ---
 
 # Project Architecture
 
 ```text
 Input Images
-      │
-      ▼
-Data Preprocessing
-      │
-      ▼
+      |
+      v
+Image Preprocessing
+      |
+      v
 Data Augmentation
-      │
-      ▼
-CNN Model
-      │
-      ▼
+      |
+      v
+Convolutional Layers
+      |
+      v
 Feature Extraction
-      │
-      ▼
+      |
+      v
+Pooling Layers
+      |
+      v
+Flatten Layer
+      |
+      v
 Dense Layers
-      │
-      ▼
-Model Training
-      │
-      ▼
-Model Validation
-      │
-      ▼
+      |
+      v
+Output Layer (Cat / Dog)
+      |
+      v
 Prediction
-```
-
----
-
-# Workflow
-
-```text
-Dataset
-    │
-    ▼
-Load Images
-    │
-    ▼
-Preprocess Images
-    │
-    ▼
-Data Augmentation
-    │
-    ▼
-Build CNN Model
-    │
-    ▼
-Train Model
-    │
-    ▼
-Validate Model
-    │
-    ▼
-Predict Image Class
-```
-
----
-
-# Skills Demonstrated
-
-- Python Programming
-- Deep Learning
-- Convolutional Neural Networks (CNN)
-- Image Classification
-- TensorFlow
-- Keras
-- Data Preprocessing
-- Data Augmentation
-- Model Training
-- Model Evaluation
-
----
-
-# Project Outcome
-
-This project successfully demonstrates the implementation of a CNN-based image classification system for distinguishing cats and dogs.
-
-Through this project, practical experience was gained in designing, training, validating, and evaluating Deep Learning models for computer vision tasks.
-
----
-
-# Learning Outcomes
-
-During the development of this project, I gained hands-on experience in:
-
-- Building CNN architectures
-- Working with TensorFlow and Keras
-- Image preprocessing techniques
-- Data augmentation
-- Deep Learning workflows
-- Model evaluation and validation
-- Applying AI concepts to solve real-world classification problems
-
----
-
-# Future Improvements
-
-- Apply Transfer Learning using pretrained models
-- Improve model accuracy through hyperparameter tuning
-- Deploy the model as a web application
-- Extend the system for multi-class image classification
-- Optimize the model for real-time prediction
-
----
-
-# Repository Structure
-
-```text
-CNN-Based-Image-Classification-System/
-
-│── README.md
-│── CNN Based.ipynb
-│── requirements.txt
-```
-
----
-
-## How to Use
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/tanagalameghana-commits/CNN-Based-Image-Classification-System-for-Cats-and-Dogs.git
-```
-
-2. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Open the notebook in **Google Colab** or **Jupyter Notebook**.
-
-4. Run all cells to train and evaluate the model.
-
----
-
-# Author
-
-**Tanagala Meghana**
-
-**B.Tech – Computer Science and Engineering (Artificial Intelligence & Machine Learning)**
-
-**Areas of Interest**
-
-- Artificial Intelligence
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Automation Engineering
-
----
-
-## ⭐ Thank you for visiting this repository!
-
-This project reflects my learning journey in Deep Learning and Computer Vision and my interest in building practical AI solutions.
-````
